@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.effect.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="anp_login" prefHeight="232.0" prefWidth="459.0" style="-fx-background-color: OliveDrab;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hrs.FXMLDocumentController">
+   <children>
+      <Label layoutX="87.0" layoutY="66.0" prefHeight="20.0" prefWidth="88.0" text="Kullanıcı Adı:">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label layoutX="87.0" layoutY="99.0" prefHeight="17.0" prefWidth="77.0" text="Şifre            :">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Hyperlink fx:id="hl_uyeOl" layoutX="277.0" layoutY="127.0" onAction="#uyelikgecis" text="Üye Ol" textFill="#0023ff" underline="true">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font></Hyperlink>
+      <TextField fx:id="txt_kullaniciAdi" layoutX="181.0" layoutY="64.0" />
+      <Button fx:id="btn_giris" layoutX="203.0" layoutY="139.0" mnemonicParsing="false" onAction="#giris" text="Giriş">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <PasswordField fx:id="passwordField" layoutX="181.0" layoutY="97.0" />
+   </children>
+   <effect>
+      <DropShadow />
+   </effect>
+   <cursor>
+      <Cursor fx:constant="DEFAULT" />
+   </cursor>
+</AnchorPane>

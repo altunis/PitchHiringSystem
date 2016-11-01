@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: OliveDrab;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hrs.UyeKaydiController">
+   <children>
+      <Label layoutX="82.0" layoutY="67.0" text="Kullanıcı Adı:" />
+      <Label layoutX="125.0" layoutY="97.0" prefHeight="25.0" prefWidth="29.0" text="Şifre:" />
+      <Label layoutX="121.0" layoutY="171.0" text="Ad:" />
+      <Label layoutX="108.0" layoutY="203.0" text="Soyad:" />
+      <Label layoutX="71.0" layoutY="237.0" text="Doğum Tarihi:" />
+      <Label layoutX="104.0" layoutY="273.0" text="Telefon:" />
+      <Label layoutX="115.0" layoutY="138.0" text="Email:" />
+      <TextField fx:id="txt_uyeKullaniciAdi" layoutX="151.0" layoutY="63.0" />
+      <TextField fx:id="txt_uyeEmail" layoutX="151.0" layoutY="134.0" />
+      <TextField fx:id="txt_uyeAd" layoutX="151.0" layoutY="167.0" />
+      <TextField fx:id="txt_uyeSoyad" layoutX="151.0" layoutY="199.0" />
+      <TextField fx:id="txt_uyeTelefon" layoutX="151.0" layoutY="269.0" />
+      <DatePicker fx:id="dp_uyeDogumTarihi" layoutX="154.0" layoutY="233.0" />
+      <Button fx:id="btn_uyeKaydi" layoutX="328.0" layoutY="333.0" mnemonicParsing="false" onAction="#Kaydet" text="Kaydet" />
+      <Button fx:id="btn_geri" layoutX="25.0" layoutY="14.0" mnemonicParsing="false" onAction="#loginGeriGel" text="Geri" />
+      <PasswordField fx:id="passwordSifre" layoutX="154.0" layoutY="97.0" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" fx:id="anp_uyelikHatirlatma" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: OliveDrab;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="yönetici.UyelikHatirlatmaController">
+   <children>
+      <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#YöneticiArayüzGeri" text="Geri" />
+      <TableView fx:id="tbl_uyelikHatirlatma" layoutY="56.0" prefHeight="274.0" prefWidth="600.0">
+        <columns>
+          <TableColumn prefWidth="118.0" text="Ad" />
+          <TableColumn prefWidth="107.0" text="Soyad" />
+            <TableColumn prefWidth="103.0" text="Kullanıcı Adı" />
+            <TableColumn prefWidth="118.0" text="Şifre" />
+        </columns>
+      </TableView>
+      <Button layoutX="372.0" layoutY="348.0" mnemonicParsing="false" onAction="#HatirlatmaMailiGonder" text="Üyelik Hatırlatma Maili Gönder" />
+   </children>
+</AnchorPane>

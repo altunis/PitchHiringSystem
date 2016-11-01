@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="anp_halisahaEkleSil" prefHeight="418.0" prefWidth="600.0" style="-fx-background-color: OliveDrab;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="yönetici.HalisahaEkleSilController">
+   <children>
+      <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#YöneticiArayüzGeri" text="Geri" />
+      <TableView fx:id="tbl_halisahalar" layoutY="93.0" prefHeight="223.0" prefWidth="600.0">
+        <columns>
+          <TableColumn fx:id="colhalisahaad" prefWidth="237.0" text="Halısaha Adı" />
+            <TableColumn fx:id="coladres" prefWidth="194.0" text="Adres" />
+            <TableColumn fx:id="colservis" prefWidth="162.0" text="Servis" />
+        </columns>
+      </TableView>
+      <Button layoutX="456.0" layoutY="325.0" mnemonicParsing="false" onAction="#HalisahaSil" text="Seçileni Sil" />
+      <Button layoutX="456.0" layoutY="372.0" mnemonicParsing="false" onAction="#HalisahaEkle" text="Halısaha Ekle" />
+   </children>
+</AnchorPane>

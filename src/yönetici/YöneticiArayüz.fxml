@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="anp_yoneticiarayuz" prefHeight="170.0" prefWidth="600.0" style="-fx-background-color: OliveDrab;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="yönetici.YöneticiArayüzController">
+   <children>
+      <Button layoutX="53.0" layoutY="69.0" mnemonicParsing="false" onAction="#randevuGör" text="Randevuları Gör" />
+      <Button layoutX="253.0" layoutY="69.0" mnemonicParsing="false" onAction="#halisahaEkleSil" text="Halısaha Ekle/Sil" />
+      <Button layoutX="453.0" layoutY="69.0" mnemonicParsing="false" onAction="#uyelikHatirlat" text="Üyelik Hatırlatma" />
+      <Button layoutX="278.0" layoutY="121.0" mnemonicParsing="false" onAction="#cikislogin" text="Çıkış" />
+   </children>
+</AnchorPane>

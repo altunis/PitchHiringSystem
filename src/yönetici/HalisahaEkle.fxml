@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="anp_halisahaEkle" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: OliveDrab;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="yönetici.HalisahaEkleController">
+   <children>
+      <Label layoutX="45.0" layoutY="100.0" text="Halısaha Adı:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="40.0" layoutY="140.0" text="Adres Bilgileri:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="40.0" layoutY="180.0" text="Servis Bilgileri:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txt_halisahaAdi" layoutX="150.0" layoutY="100.0" prefHeight="25.0" prefWidth="353.0" />
+      <TextField fx:id="txt_halisahaAdresi" layoutX="150.0" layoutY="140.0" prefHeight="25.0" prefWidth="353.0" />
+      <TextField fx:id="txt_halisahaServis" layoutX="150.0" layoutY="180.0" prefHeight="25.0" prefWidth="353.0" />
+      <Button layoutX="68.0" layoutY="232.0" mnemonicParsing="false" onAction="#halisahaResimEkle" text="Resim Ekle" />
+      <Button layoutX="450.0" layoutY="306.0" mnemonicParsing="false" onAction="#halisahaKaydet" text="Kaydet" />
+      <Button layoutX="19.0" layoutY="14.0" mnemonicParsing="false" onAction="#HalisahaEkleSilGeri" text="Geri" />
+      <Label layoutX="150.0" layoutY="34.0" prefHeight="20.0" prefWidth="64.0" text="İl" />
+      <Label layoutX="152.0" layoutY="65.0" prefHeight="25.0" prefWidth="80.0" text="ilce" />
+      <TextField fx:id="txtil" layoutX="232.0" layoutY="32.0" />
+      <TextField fx:id="txtilce" layoutX="232.0" layoutY="69.0" />
+   </children>
+</AnchorPane>

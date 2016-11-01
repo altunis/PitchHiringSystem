@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="anp_yöneticiRandevular" prefHeight="453.0" prefWidth="600.0" style="-fx-background-color: OliveDrab;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="yönetici.RandevularController">
+   <children>
+      <TableView fx:id="tbl_randevular" layoutY="55.0" prefHeight="326.0" prefWidth="600.0">
+        <columns>
+            <TableColumn fx:id="colid" prefWidth="75.0" text="ID" />
+          <TableColumn fx:id="coldad" prefWidth="127.0" text="Ad" />
+            <TableColumn fx:id="colsoyad" prefWidth="103.0" text="Soyad" />
+          <TableColumn fx:id="colil" prefWidth="90.0" text="İl" />
+            <TableColumn fx:id="colhalisaha" prefWidth="115.0" text="Halısaha Adı" />
+            <TableColumn fx:id="coltarih" text="Tarih" />
+        </columns>
+      </TableView>
+      <Button layoutX="404.0" layoutY="406.0" mnemonicParsing="false" onAction="#RandevulariSil" text="Seçilen Randevuları Sil" />
+      <Button layoutX="7.0" layoutY="14.0" mnemonicParsing="false" onAction="#YöneticiArayüzGeri" text="Geri" />
+   </children>
+</AnchorPane>

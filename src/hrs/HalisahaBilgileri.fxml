@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="anp_halisahaBilgileri" prefHeight="510.0" prefWidth="737.0" style="-fx-background-color: OliveDrab;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hrs.HalisahaBilgileriController">
+   <children>
+      <Label layoutX="40.0" layoutY="76.0" prefHeight="27.0" prefWidth="104.0" text="Halısaha Adı:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="40.0" layoutY="103.0" prefHeight="27.0" prefWidth="104.0" text="Adres           :">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="30.0" layoutY="130.0" text="Servis Bilgileri:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="254.0" layoutY="14.0" prefHeight="35.0" prefWidth="254.0" text="HALISAHA BİLGİLERİ">
+         <font>
+            <Font name="Arial" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="68.0" layoutY="157.0" prefHeight="27.0" prefWidth="76.0" text="Resimler:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="imgv1" fitHeight="150.0" fitWidth="200.0" layoutX="30.0" layoutY="206.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@01.png" />
+         </image></ImageView>
+      <ImageView fx:id="imgv2" fitHeight="150.0" fitWidth="200.0" layoutX="266.0" layoutY="206.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@mak_2013-05-31_halisaha2.gif" />
+         </image></ImageView>
+      <ImageView fx:id="imgv3" fitHeight="135.0" fitWidth="236.0" layoutX="493.0" layoutY="229.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@hali_saha.jpg" />
+         </image></ImageView>
+      <Button layoutX="519.0" layoutY="404.0" mnemonicParsing="false" onAction="#Halisaha_randevuAl" prefHeight="41.0" prefWidth="168.0" text="Randevu Al" textFill="#18683c">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnhalisahageri" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#halisahalarGeriGel" text="Geri" />
+      <Label fx:id="lbl_hAd" layoutX="166.0" layoutY="76.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbl_hAdres" layoutX="166.0" layoutY="103.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbl_hServis" layoutX="166.0" layoutY="130.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+   <cursor>
+      <Cursor fx:constant="DEFAULT" />
+   </cursor>
+</AnchorPane>

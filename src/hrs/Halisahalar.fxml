@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="anp_halisahalar" prefHeight="499.0" prefWidth="601.0" style="-fx-background-color: OliveDrab;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hrs.HalisahalarController">
+   <children>
+      <ComboBox fx:id="cmb_il" layoutX="53.0" layoutY="57.0" onAction="#ilceDoldur" prefWidth="150.0" />
+      <Label layoutX="35.0" layoutY="61.0" prefHeight="17.0" prefWidth="37.0" text="İl:" />
+      <Label layoutX="219.0" layoutY="61.0" text="İlçe:" />
+      <ComboBox fx:id="cmb_ilce" layoutX="247.0" onAction="#halisahalistele" layoutY="57.0" prefWidth="150.0" />
+      <Button layoutX="433.0" layoutY="57.0" mnemonicParsing="false" onAction="#randevular" prefHeight="25.0" prefWidth="132.0" text="Randevularım" />
+      <Button layoutX="247.0" layoutY="345.0" mnemonicParsing="false" onAction="#randevuiptal" text="Randevu İptal" visible="false" />
+      <Button layoutX="433.0" layoutY="345.0" mnemonicParsing="false" onAction="#halisahaEkle" text="Halısaha Ekle" visible="false" />
+      <Button layoutX="20.0" layoutY="14.0" mnemonicParsing="false" onAction="#loginGeriGel" text="Geri" /> 
+   </children>
+</AnchorPane>
