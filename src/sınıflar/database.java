@@ -11,7 +11,7 @@ public class database {
    String dbname="rezervasyonsistemi";
    String driver="com.mysql.jdbc.Driver";
    String id="root";
-   String pass="1228";
+   String pass="1234;
    Connection conn;
    PreparedStatement ps;
    ResultSet rs;
