@@ -24,11 +24,7 @@ import javax.swing.JOptionPane;
 import sınıflar.database;
 import sınıflar.musteriler;
 
-/**
- * FXML Controller class
- *
- * @author TalhaBadik
- */
+
 public class UyeKaydiController implements Initializable {
     @FXML
     private TextField txt_uyeKullaniciAdi;
