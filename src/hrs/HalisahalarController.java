@@ -34,11 +34,6 @@ import javax.swing.*;
 import sınıflar.ilceler;
 import sınıflar.musteriler;
 
-/**
- * FXML Controller class
- *
- * @author TalhaBadik
- */
 public class HalisahalarController implements Initializable {
     @FXML
     private AnchorPane anp_halisahalar;
