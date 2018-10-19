@@ -18,11 +18,7 @@ import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
 import javax.swing.JOptionPane;
 
-/**
- * FXML Controller class
- *
- * @author TalhaBadik
- */
+
 public class YöneticiArayüzController implements Initializable {
     @FXML
     private AnchorPane anp_yoneticiarayuz;
