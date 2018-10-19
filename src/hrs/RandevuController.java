@@ -14,11 +14,6 @@ import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.layout.AnchorPane;
 
-/**
- * FXML Controller class
- *
- * @author TalhaBadik
- */
 public class RandevuController implements Initializable {
     @FXML
     private AnchorPane anp_randevu;
