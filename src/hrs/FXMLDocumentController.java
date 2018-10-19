@@ -34,10 +34,6 @@ import sınıflar.musteriler;
 import sınıflar.sehirler;
 import yönetici.*;
 
-/**
- *
- * @author TalhaBadik
- */
 public class FXMLDocumentController implements Initializable {
     
     private Label label;
