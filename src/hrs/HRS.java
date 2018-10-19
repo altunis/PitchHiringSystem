@@ -12,10 +12,7 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
-/**
- *
- * @author TalhaBadik
- */
+
 public class HRS extends Application {
     
     @Override
