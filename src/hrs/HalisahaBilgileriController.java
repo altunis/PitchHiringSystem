@@ -22,11 +22,7 @@ import javafx.stage.Stage;
 import javax.swing.JOptionPane;
 import sınıflar.database;
 import sınıflar.halisahalar;
-/**
- * FXML Controller class
- *
- * @author TalhaBadik
- */
+
 public class HalisahaBilgileriController implements Initializable {
     @FXML
     private AnchorPane anp_halisahaBilgileri;
