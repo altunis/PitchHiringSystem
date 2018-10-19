@@ -26,11 +26,7 @@ import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
 import sınıflar.*;
 
-/**
- * FXML Controller class
- *
- * @author TalhaBadik
- */
+
 public class HalisahaEkleSilController implements Initializable {
     @FXML
     private AnchorPane anp_halisahaEkleSil;
